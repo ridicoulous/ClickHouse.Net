@@ -2,17 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>0.4.2</Version>
+    <Version>0.4.4</Version>
     <Authors>ilyabreev</Authors>
     <Company>Sintek</Company>
     <PackageProjectUrl>https://github.com/ilyabreev/ClickHouse.Net</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ilyabreev/ClickHouse.Net</RepositoryUrl>
     <PackageTags>clickhouse net standard</PackageTags>
     <Description>Provides abstractions and helpers for ClickHouse.Ado.</Description>
+    <AssemblyName>ClickHouse.Net</AssemblyName>
+    <PackageId>A.ClickHouse.Net</PackageId>
+    <PackageReleaseNotes>updated main package</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ClickHouse.Ado" Version="1.1.9" />
+    <PackageReference Include="ClickHouse.Ado" Version="1.1.20" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.1.1" />
   </ItemGroup>
